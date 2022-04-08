@@ -10,15 +10,15 @@ class Main(Frame):
         pass
 
     def update():
-       pass
+       cancel
 
 
 if __name__ == '__main__':
     root = Tk()
     root["bg"] = "#000"
     root.geometry("485x550+200+200")
-    root.title("Калькулятор")
+    root.title("Калькулятор 2")
     root.resizable(False, False)
     app = Main(root)
     app.pack()
-    root.mainloop()
+    root.secondloop()
